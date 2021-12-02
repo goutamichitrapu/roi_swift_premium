@@ -69,14 +69,14 @@ body {
         <img src="logo.png" alt="ROI-Swift" width="100" height="100">  
         <button class="button" id = "clientreport" onclick="clientreport()">Sales & KPI Dashboard</button>
         <button class="button" id = "performancebyaudience" onclick="performancebyaudience()">Performance by Audience</button>
-<!--         <button class="button" id = "datebrowser" onclick="datebrowser()">Date Browser</button>
+        <button class="button" id = "datebrowser" onclick="datebrowser()">Date Browser</button>
         <button class="button" id = "invdet" onclick="invdet()">Inventory Levels</button>
-        <button class="button" id = "weekonweek" onclick="weekonweek()">ASIN KPI Tracker</button> -->
+        <button class="button" id = "weekonweek" onclick="weekonweek()">ASIN KPI Tracker</button>
         <button class="button" id = "salesoverview" onclick="salesoverview()">Weekly Sales Overview</button>
         <button class="button" id = "salesperstate" onclick="salesperstate()">Sales by State</button>
-<!--         <button class="button" id = "keyword" onclick="keyword()">Keyword Performance</button>
+        <button class="button" id = "keyword" onclick="keyword()">Keyword Performance</button>
         <button class="button" id = "keyworddet" onclick="keyworddet()">Keyword KPI Comparison</button>
-        <button class="button" id = "bussrep" onclick="bussrep()">Business Reports</button> -->
+        <button class="button" id = "bussrep" onclick="bussrep()">Business Reports</button>
     </div>
 
 
@@ -167,79 +167,79 @@ body {
         document.getElementById("bussrep").style.fontWeight = "normal";
     }
 
-// //     function datebrowser() {
-//         document.getElementById("headername").innerHTML = 'Date Browser';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1450" height="1800" src="https://datastudio.google.com/embed/reporting/2d1943cf-c04b-4452-b37c-d339fd70adbc/page/p_3hpehjtxnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function datebrowser() {
+        document.getElementById("headername").innerHTML = 'Date Browser';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1450" height="1800" src="https://datastudio.google.com/embed/reporting/2d1943cf-c04b-4452-b37c-d339fd70adbc/page/p_3hpehjtxnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#808080";
-//         document.getElementById("datebrowser").style.color = "#FFFFFF";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#808080";
+        document.getElementById("datebrowser").style.color = "#FFFFFF";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "bold";
-//         document.getElementById("invdet").style.fontWeight = "normal";
-//         document.getElementById("weekonweek").style.fontWeight = "normal";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "normal";
-//         document.getElementById("keyworddet").style.fontWeight = "normal";
-//         document.getElementById("bussrep").style.fontWeight = "normal";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "bold";
+        document.getElementById("invdet").style.fontWeight = "normal";
+        document.getElementById("weekonweek").style.fontWeight = "normal";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "normal";
+        document.getElementById("keyworddet").style.fontWeight = "normal";
+        document.getElementById("bussrep").style.fontWeight = "normal";
+    }
 
-//     function invdet() {
-//         document.getElementById("headername").innerHTML = 'Inventory Levels';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1200" height="1100" src="https://datastudio.google.com/embed/reporting/f819b735-97c4-44db-8225-a0f3a97f072e/page/p_slzvxlysnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function invdet() {
+        document.getElementById("headername").innerHTML = 'Inventory Levels';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1200" height="1100" src="https://datastudio.google.com/embed/reporting/f819b735-97c4-44db-8225-a0f3a97f072e/page/p_slzvxlysnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#808080";
-//         document.getElementById("invdet").style.color = "#FFFFFF";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#808080";
+        document.getElementById("invdet").style.color = "#FFFFFF";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "normal";
-//         document.getElementById("invdet").style.fontWeight = "bold";
-//         document.getElementById("weekonweek").style.fontWeight = "normal";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "normal";
-//         document.getElementById("keyworddet").style.fontWeight = "normal";
-//         document.getElementById("bussrep").style.fontWeight = "normal";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "normal";
+        document.getElementById("invdet").style.fontWeight = "bold";
+        document.getElementById("weekonweek").style.fontWeight = "normal";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "normal";
+        document.getElementById("keyworddet").style.fontWeight = "normal";
+        document.getElementById("bussrep").style.fontWeight = "normal";
+    }
 
     function salesoverview() {
         document.getElementById("headername").innerHTML = 'Weekly Sales Overview';
@@ -249,22 +249,22 @@ body {
         document.getElementById("clientreport").style.color = "#00838f"
         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
         document.getElementById("salesoverview").style.backgroundColor = "#808080";
         document.getElementById("salesoverview").style.color = "#FFFFFF";
         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
         document.getElementById("clientreport").style.fontWeight = "normal";
         document.getElementById("performancebyaudience").style.fontWeight = "normal";
@@ -286,22 +286,22 @@ body {
         document.getElementById("clientreport").style.color = "#00838f"
         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
         document.getElementById("salesoverview").style.color = "#00838f";
         document.getElementById("salesperstate").style.backgroundColor = "#808080";
         document.getElementById("salesperstate").style.color = "#FFFFFF";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
         document.getElementById("clientreport").style.fontWeight = "normal";
         document.getElementById("performancebyaudience").style.fontWeight = "normal";
@@ -315,156 +315,156 @@ body {
         document.getElementById("bussrep").style.fontWeight = "normal";
     }
 
-//     function keyword() {
-//         document.getElementById("headername").innerHTML = 'Keyword Performance';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1200" height="900" src="https://datastudio.google.com/embed/reporting/84f1165a-384a-4bbd-982a-18342efea2f8/page/p_btfkst5vnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function keyword() {
+        document.getElementById("headername").innerHTML = 'Keyword Performance';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1200" height="900" src="https://datastudio.google.com/embed/reporting/84f1165a-384a-4bbd-982a-18342efea2f8/page/p_btfkst5vnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#808080";
-//         document.getElementById("keyword").style.color = "#FFFFFF";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#808080";
+        document.getElementById("keyword").style.color = "#FFFFFF";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "normal";
-//         document.getElementById("invdet").style.fontWeight = "normal";
-//         document.getElementById("weekonweek").style.fontWeight = "normal";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "bold";
-//         document.getElementById("keyworddet").style.fontWeight = "normal";
-//         document.getElementById("bussrep").style.fontWeight = "normal";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "normal";
+        document.getElementById("invdet").style.fontWeight = "normal";
+        document.getElementById("weekonweek").style.fontWeight = "normal";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "bold";
+        document.getElementById("keyworddet").style.fontWeight = "normal";
+        document.getElementById("bussrep").style.fontWeight = "normal";
+    }
 
-//     function keyworddet() {
-//         document.getElementById("headername").innerHTML = 'Keyword KPI Comparison';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1300" height="3400" src="https://datastudio.google.com/embed/reporting/7bd3ab1b-5e1d-421b-b92b-7db45d4b1ed1/page/p_n3g8uoy2nc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function keyworddet() {
+        document.getElementById("headername").innerHTML = 'Keyword KPI Comparison';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1300" height="3400" src="https://datastudio.google.com/embed/reporting/7bd3ab1b-5e1d-421b-b92b-7db45d4b1ed1/page/p_n3g8uoy2nc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
     
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#808080";
-//         document.getElementById("keyworddet").style.color = "#FFFFFF";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#808080";
+        document.getElementById("keyworddet").style.color = "#FFFFFF";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "normal";
-//         document.getElementById("invdet").style.fontWeight = "normal";
-//         document.getElementById("weekonweek").style.fontWeight = "normal";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "normal";
-//         document.getElementById("keyworddet").style.fontWeight = "bold";
-//         document.getElementById("bussrep").style.fontWeight = "normal";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "normal";
+        document.getElementById("invdet").style.fontWeight = "normal";
+        document.getElementById("weekonweek").style.fontWeight = "normal";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "normal";
+        document.getElementById("keyworddet").style.fontWeight = "bold";
+        document.getElementById("bussrep").style.fontWeight = "normal";
+    }
 
-//     function weekonweek() {
-//         document.getElementById("headername").innerHTML = 'ASIN KPI Tracker';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1440" height="1000" src="https://datastudio.google.com/embed/reporting/149c8354-5f71-4946-9afc-660b1d908498/page/p_2obwtwhwnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function weekonweek() {
+        document.getElementById("headername").innerHTML = 'ASIN KPI Tracker';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1440" height="1000" src="https://datastudio.google.com/embed/reporting/149c8354-5f71-4946-9afc-660b1d908498/page/p_2obwtwhwnc" frameborder="0" style="border:0" allowfullscreen></iframe>';    
     
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#808080";
-//         document.getElementById("weekonweek").style.color = "#FFFFFF";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("bussrep").style.color = "#00838f";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#808080";
+        document.getElementById("weekonweek").style.color = "#FFFFFF";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#FFFFFF";
+        document.getElementById("bussrep").style.color = "#00838f";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "normal";
-//         document.getElementById("invdet").style.fontWeight = "normal";
-//         document.getElementById("weekonweek").style.fontWeight = "bold";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "normal";
-//         document.getElementById("keyworddet").style.fontWeight = "normal";
-//         document.getElementById("bussrep").style.fontWeight = "normal";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "normal";
+        document.getElementById("invdet").style.fontWeight = "normal";
+        document.getElementById("weekonweek").style.fontWeight = "bold";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "normal";
+        document.getElementById("keyworddet").style.fontWeight = "normal";
+        document.getElementById("bussrep").style.fontWeight = "normal";
+    }
   
-//     function bussrep() {
-//         document.getElementById("headername").innerHTML = 'Business Reports';
-//         document.getElementById("iframeDisplay").innerHTML = '<iframe width="1300" height="1200" src="https://datastudio.google.com/embed/reporting/d92f9cfe-37aa-47e5-9471-4256c454a370/page/LvxbC" frameborder="0" style="border:0" allowfullscreen></iframe>';    
+    function bussrep() {
+        document.getElementById("headername").innerHTML = 'Business Reports';
+        document.getElementById("iframeDisplay").innerHTML = '<iframe width="1300" height="1200" src="https://datastudio.google.com/embed/reporting/d92f9cfe-37aa-47e5-9471-4256c454a370/page/LvxbC" frameborder="0" style="border:0" allowfullscreen></iframe>';    
     
        
-//         document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("clientreport").style.color = "#00838f"
-//         document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("performancebyaudience").style.color = "#00838f";
-//         document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("datebrowser").style.color = "#00838f";
-//         document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("invdet").style.color = "#00838f";
-//         document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("weekonweek").style.color = "#00838f";
-//         document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesoverview").style.color = "#00838f";
-//         document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("salesperstate").style.color = "#00838f";
-//         document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyword").style.color = "#00838f";
-//         document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
-//         document.getElementById("keyworddet").style.color = "#00838f";
-//         document.getElementById("bussrep").style.backgroundColor = "#808080";
-//         document.getElementById("bussrep").style.color = "#FFFFFF";
+        document.getElementById("clientreport").style.backgroundColor = "#FFFFFF";
+        document.getElementById("clientreport").style.color = "#00838f"
+        document.getElementById("performancebyaudience").style.backgroundColor = "#FFFFFF";
+        document.getElementById("performancebyaudience").style.color = "#00838f";
+        document.getElementById("datebrowser").style.backgroundColor = "#FFFFFF";
+        document.getElementById("datebrowser").style.color = "#00838f";
+        document.getElementById("invdet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("invdet").style.color = "#00838f";
+        document.getElementById("weekonweek").style.backgroundColor = "#FFFFFF";
+        document.getElementById("weekonweek").style.color = "#00838f";
+        document.getElementById("salesoverview").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesoverview").style.color = "#00838f";
+        document.getElementById("salesperstate").style.backgroundColor = "#FFFFFF";
+        document.getElementById("salesperstate").style.color = "#00838f";
+        document.getElementById("keyword").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyword").style.color = "#00838f";
+        document.getElementById("keyworddet").style.backgroundColor = "#FFFFFF";
+        document.getElementById("keyworddet").style.color = "#00838f";
+        document.getElementById("bussrep").style.backgroundColor = "#808080";
+        document.getElementById("bussrep").style.color = "#FFFFFF";
         
-//         document.getElementById("clientreport").style.fontWeight = "normal";
-//         document.getElementById("performancebyaudience").style.fontWeight = "normal";
-//         document.getElementById("datebrowser").style.fontWeight = "normal";
-//         document.getElementById("invdet").style.fontWeight = "normal";
-//         document.getElementById("weekonweek").style.fontWeight = "normal";
-//         document.getElementById("salesoverview").style.fontWeight = "normal";
-//         document.getElementById("salesperstate").style.fontWeight = "normal";
-//         document.getElementById("keyword").style.fontWeight = "normal";
-//         document.getElementById("keyworddet").style.fontWeight = "normal";
-//         document.getElementById("bussrep").style.fontWeight = "bold";
-//     }
+        document.getElementById("clientreport").style.fontWeight = "normal";
+        document.getElementById("performancebyaudience").style.fontWeight = "normal";
+        document.getElementById("datebrowser").style.fontWeight = "normal";
+        document.getElementById("invdet").style.fontWeight = "normal";
+        document.getElementById("weekonweek").style.fontWeight = "normal";
+        document.getElementById("salesoverview").style.fontWeight = "normal";
+        document.getElementById("salesperstate").style.fontWeight = "normal";
+        document.getElementById("keyword").style.fontWeight = "normal";
+        document.getElementById("keyworddet").style.fontWeight = "normal";
+        document.getElementById("bussrep").style.fontWeight = "bold";
+    }
 
 
     
